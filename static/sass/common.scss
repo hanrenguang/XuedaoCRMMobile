@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  background-color: rgb(246, 248, 249);
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+a {
+  color: #000;
+  &:hover, &:active, &:visited, &:link {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+*[class*="col-md"] {
+  padding: 0;
+  margin: 0;
+}
+*[class*="col-sm"] {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* is-sale-status-class */
+span.sale, span.show-his, span.show-prob {
+  background-color: #0095e2;
+  &:after {
+    position: absolute;
+    right: 2px;
+    top: 1.5px;
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+  }
+}
+span.not-sale, span.hide-his, span.hide-prob {
+  background-color: #ddd;
+  &:after {
+    position: absolute;
+    left: 2px;
+    top: 1.5px;
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+  }
+}
