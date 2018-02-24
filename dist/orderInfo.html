@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <title>订单汇总</title>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/orderInfo.css">
+</head>
+<body>
+  <div class="container-fluid fixed-bottom">
+    <nav class="nav-bar row">
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+        <span class="nav-name">首页</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="customer-icon"></span>
+        <span class="nav-name">客户</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3 nav-target">
+        <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+        <span class="nav-name">订单</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <span class="nav-name">我的</span>
+      </a>
+    </nav>
+  </div>
+
+  <div class="top-menu row">
+    <a href="javascript:;" class="col-xs-3 target-menu">全部订单</a>
+    <a href="javascript:;" class="col-xs-3">未处理</a>
+    <a href="javascript:;" class="col-xs-3">已确认</a>
+    <a href="javascript:;" class="col-xs-3">已发货</a>
+  </div>
+
+  <div class="split"></div>
+
+  <div class="order-item not-processed">
+    <p class="order-title">
+      <span class="class-name">电子1201</span>
+      <span class="status">未处理</span>
+    </p>
+    <p class="price-box row">
+      <span class="col-xs-4">单额：999元</span>
+      <span class="col-xs-4">免单：19元</span>
+      <span class="col-xs-4">应付：980元</span>
+    </p>
+    <p class="other-info">
+      订单号：<span class="order-num">134713481231</span>
+      <span class="time">2018.02.02 18:04</span>
+    </p>
+  </div>
+
+  <div class="order-item confirmed">
+    <p class="order-title">
+      <span class="class-name">电子1201</span>
+      <span class="status">已确认</span>
+    </p>
+    <p class="price-box row">
+      <span class="col-xs-4">单额：999元</span>
+      <span class="col-xs-4">免单：19元</span>
+      <span class="col-xs-4">应付：980元</span>
+    </p>
+    <p class="other-info">
+      订单号：<span class="order-num">134713481231</span>
+      <span class="time">2018.02.02 18:04</span>
+    </p>
+  </div>
+
+  <div class="order-item shipped">
+    <p class="order-title">
+      <span class="class-name">电子1201</span>
+      <button class="confirm-recv" type="button">确认收货</button>
+      <span class="status">已发货</span>
+    </p>
+    <p class="price-box row">
+      <span class="col-xs-4">单额：999元</span>
+      <span class="col-xs-4">免单：19元</span>
+      <span class="col-xs-4">应付：980元</span>
+    </p>
+    <p class="express-info">
+      送货方式：<span class="express">韵达快递</span>
+      <span class="express-num">8237531948192</span>
+      <button class="copy" type="button">复制</button>
+    </p>
+    <p class="other-info">
+      订单号：<span class="order-num">134713481231</span>
+      <span class="time">2018.02.02 18:04</span>
+    </p>
+  </div>
+
+  <div class="cover"></div>
+
+  <script src="vendor/jquery-3.3.1.min.js"></script>
+  <script src="js/orderInfo.js"></script>
+</body>
+</html>

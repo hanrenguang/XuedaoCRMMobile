@@ -1,0 +1,62 @@
+@mixin link-colors($r, $g, $b) {
+  color: rgb($r, $g, $b);
+  &:hover, &:visited, &:active{
+    color: rgba($r, $g, $b, 0.8);
+  }
+}
+@mixin link-colors-rgba($r, $g, $b, $a) {
+  color: rgb($r, $g, $b);
+  &:hover, &:visited, &:active{
+    color: rgba($r, $g, $b, $a);
+  }
+}
+
+/* nav */
+div.fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 7px 0px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  z-index: 99;
+  font-size: 1.2rem;
+  a {
+    @include link-colors(146, 146, 146);
+    &.nav-target {
+      @include link-colors(0, 149, 226);
+      span.glyphicon {
+        color: #0095e2;
+      }
+    }
+    span {
+      display: block;
+      text-align: center;
+      &.glyphicon {
+        line-height: 1.8rem;
+        font-size: 1.4rem;
+        color: #d8d8d8;
+      }
+      &.customer-icon {
+        width: 100%;
+        height: 1.8rem;
+        background-image: url(../imgs/customer.png);
+        background-repeat: no-repeat;
+        background-size: 2.2rem 2.2rem;
+        background-position: 50% 50%;
+      }
+    }
+  }
+}
+
+div.cover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgb(246, 248, 249);
+}

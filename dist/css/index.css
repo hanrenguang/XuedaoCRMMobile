@@ -1,0 +1,196 @@
+/* nav */
+div.fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 7px 0px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  z-index: 99;
+  font-size: 1.2rem;
+}
+
+div.fixed-bottom a {
+  color: #929292;
+}
+
+div.fixed-bottom a:hover, div.fixed-bottom a:visited, div.fixed-bottom a:active {
+  color: rgba(146, 146, 146, 0.8);
+}
+
+div.fixed-bottom a.nav-target {
+  color: #0095e2;
+}
+
+div.fixed-bottom a.nav-target:hover, div.fixed-bottom a.nav-target:visited, div.fixed-bottom a.nav-target:active {
+  color: rgba(0, 149, 226, 0.8);
+}
+
+div.fixed-bottom a.nav-target span.glyphicon {
+  color: #0095e2;
+}
+
+div.fixed-bottom a span {
+  display: block;
+  text-align: center;
+}
+
+div.fixed-bottom a span.glyphicon {
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: #d8d8d8;
+}
+
+div.fixed-bottom a span.customer-icon {
+  width: 100%;
+  height: 1.8rem;
+  background-image: url(../imgs/customer.png);
+  background-repeat: no-repeat;
+  background-size: 2.2rem 2.2rem;
+  background-position: 50% 50%;
+}
+
+/* total-order-info */
+div.total-order-info {
+  padding: 2.5rem 0 1rem 0rem;
+  background-color: #fff;
+}
+
+div.total-order-info div {
+  text-align: center;
+}
+
+div.total-order-info div p.title {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+div.total-order-info div p.total-order-amount {
+  font-size: 3rem;
+  color: #0095e2;
+}
+
+div.total-order-info div p.target {
+  font-size: 1.18rem;
+  color: #a6a6a6;
+}
+
+div.total-order-info div.col-xs-6 {
+  font-size: 1.2rem;
+  color: #787778;
+}
+
+div.total-order-info div.col-xs-6 span.glyphicon {
+  margin-right: 5px;
+  font-size: 1.5rem;
+  color: #1296db;
+}
+
+div.total-order-info div.col-xs-6 span.order-number, div.total-order-info div.col-xs-6 span.single-average {
+  margin-left: 5px;
+}
+
+/* total-class-info */
+div.total-class-info {
+  margin: 8px 0;
+  padding: 2rem 0 1rem 0;
+  background-color: #fff;
+}
+
+div.total-class-info p {
+  margin: 0;
+  text-align: center;
+}
+
+div.total-class-info p[class*="-val"] {
+  font-size: 2rem;
+}
+
+div.total-class-info p.class-val, div.total-class-info p.contact-val {
+  color: #616161;
+}
+
+div.total-class-info p.statistics-val {
+  color: #1aaba8;
+}
+
+div.total-class-info p.have-ordered-val {
+  color: #0095e2;
+}
+
+div.total-class-info p.problem-val {
+  color: #e51c23;
+}
+
+div.total-class-info p.item-name {
+  font-size: 1rem;
+  color: #a6a6a6;
+}
+
+div.total-class-info div.percentage-bar-box {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 1.6rem;
+  color: #1aaba8;
+}
+
+div.total-class-info div.percentage-bar-box span.percentage-bar {
+  position: relative;
+  display: inline-block;
+  width: 85%;
+  border-top: 1px solid #b7b7b7;
+  vertical-align: middle;
+}
+
+div.total-class-info div.percentage-bar-box span.percentage-bar:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 58%;
+  border-top: 1px solid #1aaba8;
+  content: "";
+}
+
+div.total-class-info div.percentage-bar-box span.percentage-bar:after {
+  position: absolute;
+  left: 58%;
+  top: -0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid #b7b7b7;
+  border-radius: 50%;
+  background-color: #fff;
+  content: "";
+}
+
+div.total-class-info div.percentage-bar-box span.percentage-val {
+  font-size: 1rem;
+}
+
+/* income-info */
+div.income-info {
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+div.income-info p {
+  text-align: center;
+}
+
+div.income-info p.item-name {
+  font-size: 1.1rem;
+  color: #a6a6a6;
+}
+
+div.income-info p[class*="-income"] {
+  font-size: 2rem;
+}
+
+div.income-info p.today-income, div.income-info p.total-income {
+  color: #1aaba8;
+}
+
+div.income-info p.target-income {
+  color: #f26516;
+}

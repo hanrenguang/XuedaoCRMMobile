@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <title>首页</title>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container-fluid fixed-bottom">
+    <nav class="nav-bar row">
+      <a href="javascript:;" class="col-xs-3 nav-target">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+        <span class="nav-name">首页</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="customer-icon"></span>
+        <span class="nav-name">客户</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+        <span class="nav-name">订单</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <span class="nav-name">我的</span>
+      </a>
+    </nav>
+  </div>
+
+  <div class="container-fluid total-order-info">
+    <div class="row">
+      <div class="col-xs-8">
+        <p class="title">
+          总下单额
+          <span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+        </p>
+        <p class="total-order-amount">39685.8</p>
+      </div>
+      <div class="col-xs-4">
+        <div class="percentage-circle"></div>
+        <p class="target">目标：<span>4000</span></p>
+      </div>
+      <div class="col-xs-6">
+        <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+        订单数
+        <span class="order-number">99</span>
+      </div>
+      <div class="col-xs-6">
+        <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+        单均
+        <span class="single-average">989.9</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="total-class-info">
+    <div class="row">
+      <div class="col-xs-4">
+        <p class="class-val">30</p>
+        <p class="item-name">总班数</p>
+      </div>
+      <div class="col-xs-2">
+        <p class="contact-val">3</p>
+        <p class="item-name">初步联系</p>
+      </div>
+      <div class="col-xs-2">
+        <p class="statistics-val">10</p>
+        <p class="item-name">统计中</p>
+      </div>
+      <div class="col-xs-2">
+        <p class="have-ordered-val">10</p>
+        <p class="item-name">已下单</p>
+      </div>
+      <div class="col-xs-2">
+        <p class="problem-val">7</p>
+        <p class="item-name">有问题</p>
+      </div>
+    </div>
+    <div class="percentage-bar-box">
+      <span class="percentage-bar"></span>
+      <span class="percentage-val">58%</span>
+    </div>
+  </div>
+
+  <div class="income-info row">
+    <div class="col-xs-4">
+      <p class="today-income">+760</p>
+      <p class="item-name">今日收入</p>
+    </div>
+    <div class="col-xs-4">
+      <p class="total-income">5678</p>
+      <p class="item-name">总收入</p>
+    </div>
+    <div class="col-xs-4">
+      <p class="target-income">6588</p>
+      <p class="item-name">目标收入</p>
+    </div>
+  </div>
+
+  <script src="vendor/jquery-3.3.1.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

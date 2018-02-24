@@ -1,0 +1,102 @@
+/* nav */
+div.fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 7px 0px;
+  border-top: 1px solid #eee;
+  background-color: #fff;
+  z-index: 99;
+  font-size: 1.2rem;
+}
+
+div.fixed-bottom a {
+  color: #929292;
+}
+
+div.fixed-bottom a:hover, div.fixed-bottom a:visited, div.fixed-bottom a:active {
+  color: rgba(146, 146, 146, 0.8);
+}
+
+div.fixed-bottom a.nav-target {
+  color: #0095e2;
+}
+
+div.fixed-bottom a.nav-target:hover, div.fixed-bottom a.nav-target:visited, div.fixed-bottom a.nav-target:active {
+  color: rgba(0, 149, 226, 0.8);
+}
+
+div.fixed-bottom a.nav-target span.glyphicon {
+  color: #0095e2;
+}
+
+div.fixed-bottom a span {
+  display: block;
+  text-align: center;
+}
+
+div.fixed-bottom a span.glyphicon {
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  color: #d8d8d8;
+}
+
+div.fixed-bottom a span.customer-icon {
+  width: 100%;
+  height: 1.8rem;
+  background-image: url(../imgs/customer-blue.png);
+  background-repeat: no-repeat;
+  background-size: 2.2rem 2.2rem;
+  background-position: 50% 50%;
+}
+
+div.college-detail-box {
+  margin: 12px 0;
+  color: #0095e2;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.college-detail-box p {
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
+  font-size: 1.05rem;
+}
+
+div.college-detail-box div.college-name {
+  font-size: 1.4rem;
+  line-height: 4rem;
+}
+
+div.college-detail-box div.ordered-val-box {
+  font-weight: 600;
+}
+
+div.college-detail-box div.ordered-detail-box div.ordered-title {
+  margin: 0 1rem;
+  border-top: 1px solid #ccc;
+  color: #F26516;
+  font-size: 1.1rem;
+}
+
+div.college-detail-box div.ordered-detail-box div.ordered-title div {
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+div.college-detail-box div.class-detail-box {
+  padding: 10px;
+}
+
+div.college-detail-box div.class-detail-box table {
+  margin: 0px;
+}
+
+div.college-detail-box div.class-detail-box td {
+  line-height: 2.2rem;
+  border-width: 0px;
+  color: #000;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <title>学院详情</title>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/collegeDetail.css">
+</head>
+<body>
+  <div class="container-fluid fixed-bottom">
+    <nav class="nav-bar row">
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+        <span class="nav-name">首页</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3 nav-target">
+        <span class="customer-icon"></span>
+        <span class="nav-name">客户</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+        <span class="nav-name">订单</span>
+      </a>
+      <a href="javascript:;" class="col-xs-3">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <span class="nav-name">我的</span>
+      </a>
+    </nav>
+  </div>
+
+  <div class="college-detail-box">
+    <div class="row">
+      <div class="college-name col-xs-4">
+        电信学院
+      </div>
+      <div class="class-num-box col-xs-2">
+        <p class="item-name">班数</p>
+        <p class="class-num">30</p>
+      </div>
+      <div class="student-num-box col-xs-2">
+        <p class="item-name">人数</p>
+        <p class="student-num">300</p>
+      </div>
+      <div class="target-val-box col-xs-2">
+        <p class="item-name">目标额</p>
+        <p class="target-val">3000.5</p>
+      </div>
+      <div class="ordered-val-box col-xs-2">
+        <p class="item-name">下单额</p>
+        <p class="ordered-val">555555</p>
+      </div>
+    </div>
+
+    <div class="ordered-detail-box">
+      <div class="row ordered-title">
+        <div class="col-xs-4">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          订单数
+          <span class="ordered-num">99</span>
+        </div>
+        <div class="col-xs-4">
+          <span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+          单均
+          <span class="single-overage">989.9</span>
+        </div>
+        <div class="col-xs-4">
+          <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+          未下单
+          <span class="not-ordered">5</span>
+        </div>
+      </div>
+      <div class="class-detail-box">
+        <table class="table table-striped">
+          <tbody>
+            <tr>
+              <td>电子14</td>
+              <td>10个班(4未下单)</td>
+              <td>下单总额：987</td>
+            </tr>
+            <tr>
+              <td>电子13</td>
+              <td>10个班(4未下单)</td>
+              <td>下单总额：987</td>
+            </tr>
+            <tr>
+              <td>电子12</td>
+              <td>10个班(4未下单)</td>
+              <td>下单总额：987</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/jquery-3.3.1.min.js"></script>
+  <script src="js/collegeDetail.js"></script>
+</body>
+</html>
